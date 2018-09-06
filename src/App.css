@@ -1,28 +1,36 @@
-.App {
-  text-align: center;
+:root{
+  --color-primary: #c69963;
+  --color-primary-dark:  #B28451;
+
+  --color-secondary:   #101d2c;
+
+  --color-grey-light-1:   #f9f7f6;
+  --color-grey-light-2:   #aaa;
+
+  --color-grey-dark-1:    #54483A;
+  --color-grey-dark-2:    #6D5D4B;
+
+  --font-primary: 'Nunito', sans-serif;
+  --font-secondary: 'Josefin Sans', sans-serif;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /* So that 1rem = 10px (10px/16px (browsers default) = 62.5% -> 1rem = 10px */
 }
 
-.App-title {
-  font-size: 1.5em;
-}
+body{
+  font-family: var(--font-primary);
+  font-weight: 300;
+  color: var(--color-grey-dark-2); 
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
