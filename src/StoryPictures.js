@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './StoryPictures.css';
 
 class StoryPictures extends Component {
     render() {
