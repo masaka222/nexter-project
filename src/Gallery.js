@@ -5,7 +5,7 @@ class Gallery extends Component {
     render() {
       return (
         <section className="gallery">
-            Gllery
+            Gallery
         </section>
       );
     }
