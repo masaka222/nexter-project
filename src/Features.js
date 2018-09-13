@@ -13,8 +13,11 @@ class Features extends Component {
       return (
         <section className="features">
             <div className="feature">
-              <IconEarth/>
-              <h4 className="heading-4">World's best luxury homes</h4>
+              <IconEarth
+                width="4.5rem" 
+                height="4.5rem"
+              />
+              <h4 className="heading-4--dark">World's best luxury homes</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 
@@ -24,7 +27,7 @@ class Features extends Component {
 
             <div className="feature">
               <IconTrophy/>
-              <h4 className="heading-4">Only the best properties</h4>
+              <h4 className="heading-4--dark">Only the best properties</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 
@@ -34,7 +37,7 @@ class Features extends Component {
 
             <div className="feature">
               <IconPin/>
-              <h4 className="heading-4">All homes in top locations</h4>
+              <h4 className="heading-4--dark">All homes in top locations</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 
@@ -44,7 +47,7 @@ class Features extends Component {
 
             <div className="feature">
               <IconKey/>
-              <h4 className="heading-4">New home in one week</h4>
+              <h4 className="heading-4--dark">New home in one week</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 
@@ -54,7 +57,7 @@ class Features extends Component {
 
             <div className="feature">
               <IconPresentation/>
-              <h4 className="heading-4">Top 1% realtors</h4>
+              <h4 className="heading-4--dark">Top 1% realtors</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 
@@ -64,7 +67,7 @@ class Features extends Component {
 
             <div className="feature">
               <IconLock/>
-              <h4 className="heading-4">Secure payments on nexter</h4>
+              <h4 className="heading-4--dark">Secure payments on nexter</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
                 gravida dictum, curae libero etiam imperdiet hendrerit aenean 

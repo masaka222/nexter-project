@@ -6,4 +6,23 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 6rem;
+    align-items: start;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 1.5rem;
+}
+
+.feature__icon{
+    fill: var(--color-primary);
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1/ span 2;
+    transform: translateY(-1rem);
+}
+
+.feature__text{
+    font-size: 1.7rem;
 }
