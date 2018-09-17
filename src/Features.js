@@ -36,7 +36,7 @@ class Features extends Component {
             </div>
 
             <div className="feature">
-              <IconPin/>
+            <div className="feature__icon"><IconPin/></div>
               <h4 className="heading-4--dark">All homes in top locations</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
@@ -46,7 +46,7 @@ class Features extends Component {
             </div>
 
             <div className="feature">
-              <IconKey/>
+              <div className="feature__icon"><IconKey/></div>
               <h4 className="heading-4--dark">New home in one week</h4>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit hac magnis 
