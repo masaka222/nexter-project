@@ -18,8 +18,10 @@ class Homes extends Component {
         <section className="homes">
             <div className="home">
               <img className="home__img" src={home1} alt="House 1"/>
-              <IconHeart/>
-              <h5 className="home_name">Beautiful Family House </h5>
+              <div className="home__like">
+                <IconHeart/>
+              </div>
+              <h5 className="home__name">Beautiful Family House </h5>
               <div className="home__location">
                 <IconPin/>
                 <p>USA</p>
@@ -36,15 +38,19 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$1,200,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
 
 
 
             <div className="home">
               <img className="home__img" src={home2} alt="House 2"/>
-              <IconHeart/>
-              <h5 className="home_name">Modern Glass Villa </h5>
+              <div className="home__like">
+                <div className="home__like">
+                <IconHeart/>
+              </div>
+              </div>
+              <h5 className="home__name">Modern Glass Villa </h5>
               <div className="home__location">
                 <IconPin/>
                 <p>Canada</p>
@@ -61,12 +67,16 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$2,750,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
+
+
             <div className="home">
               <img className="home__img" src={home3} alt="House 3"/>
-              <IconHeart/>
-              <h5 className="home_name"> Cozy Country House </h5>
+              <div className="home__like">
+                <IconHeart/>
+              </div>
+              <h5 className="home__name"> Cozy Country House </h5>
               <div className="home__location">
                 <IconPin/>
                 <p>UK</p>
@@ -83,15 +93,17 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$850,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
 
 
             
             <div className="home">
               <img className="home__img" src={home4} alt="House 4"/>
-              <IconHeart/>
-              <h5 className="home_name">Large Rustical Villa </h5>
+              <div className="home__like">
+                <IconHeart/>
+              </div>
+              <h5 className="home__name">Large Rustical Villa </h5>
               <div className="home__location">
                 <IconPin/>
                 <p>Portugal</p>
@@ -108,15 +120,17 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$1,950,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
 
 
 
             <div className="home">
             <img className="home__img" src={home5} alt="House 5"/>
-              <IconHeart/>
-              <h5 className="home_name">Beautiful Family House </h5>
+            <div className="home__like">
+                <IconHeart/>
+              </div>
+              <h5 className="home__name">Beautiful Family House </h5>
               <div className="home__location">
                 <IconPin/>
                 <p>Germany</p>
@@ -133,15 +147,17 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$9,500,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
 
 
 
             <div className="home">
               <img className="home__img" src={home6} alt="House 6"/>
-              <IconHeart/>
-              <h5 className="home_name">Modern Family Apartment </h5>
+              <div className="home__like">
+                <IconHeart/>
+              </div>
+              <h5 className="home__name">Modern Family Apartment </h5>
               <div className="home__location">
                 <IconPin
                   width="2rem"
@@ -162,7 +178,7 @@ class Homes extends Component {
                 <IconKey/>
                 <p>$600,000</p>
               </div>
-              <button className="cta">Contact realtor</button>
+              <button className="btn home__btn">Contact realtor</button>
             </div>
         </section>
       );
