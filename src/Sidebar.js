@@ -5,7 +5,7 @@ class Sidebar extends Component {
     render() {
       return (
         <div className="sidebar">
-            Sidebar
+            <button className="nav-btn"></button>
         </div>
       );
     }
