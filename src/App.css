@@ -43,6 +43,10 @@ body{
 .heading-1{
   font-family: var(--font-display);
   font-weight: 400;
+
+  font-size: 4.5rem;
+  color: var(--color-grey-light-1);
+  line-height: 1;
 }
 .heading-2--light{
   font-family: var(--font-display);

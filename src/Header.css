@@ -1,4 +1,24 @@
 .header {
     background-color: var(--color-grey-dark-1);
     grid-column: full-start / col-end 6;
+
+    background-image: linear-gradient(rgba(16, 29, 44, .93), rgba(16, 29, 44, .93)), url(./img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header__logo{
+    height: 3rem;
+}
+
+.header__seenon-text{
+
+}
+
+.header__seenon-logos{
+
+}
+
+.header__seenon-logos img {
+    height: 2.5rem;
 }
