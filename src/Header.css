@@ -28,13 +28,35 @@
 }
 
 .header__seenon-text{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+    align-items: center;
 
+    font-size: 1.6rem;
+    color: var(--color-grey-light-2);
+}
+.header__seenon-text::before{
+    content: "";
+    height: 1px;
+    display: block;
+    background-color: currentColor;
+}
+.header__seenon-text::after{
+    content: "";
+    height: 1px;
+    display: block;
+    background-color: currentColor;
 }
 
 .header__seenon-logos{
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    justify-items: center;
 }
 
 .header__seenon-logos img {
     height: 2.5rem;
+    filter: brightness(70%);
 }
