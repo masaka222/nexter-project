@@ -14,7 +14,7 @@ class Header extends Component {
             <img src={logo} alt="Nexter logo" className="header__logo"/>
             <h3 className="heading-3">Your own home: </h3>
             <h1 className="heading-1">The ultimate personal freedom</h1>
-            <button className="btn">View our properties</button>
+            <button className="btn header__btn">View our properties</button>
             <div className="header__seenon-text">Seen on</div>
             <div className="header__seenon-logos">
               <img src={logoBbc} alt="Seen on logo 1" className="header__seenon-logo"/>
