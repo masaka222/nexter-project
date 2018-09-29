@@ -28,3 +28,22 @@
 
 .nav-btn::before {transform: translateY(-1.3rem);}
 .nav-btn::after {transform: translateY(1.3rem);}
+
+@media only screen and (max-width: 62.5em){
+    .sidebar {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-btn{
+        margin-top: 0rem;
+        margin-right: 2rem;
+    }
+    
+    .nav-btn::before {transform: translateY(-1.2rem);}
+    .nav-btn::after {transform: translateY(1rem);}
+}

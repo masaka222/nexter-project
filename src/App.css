@@ -15,6 +15,10 @@
 
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
 
+
+/* ----- MEDIA QUERIES ----- */
+  --bp-largest: 75em; /* 1200 px */
+  --bp-large: 62.5em; /* 1000 px */
 }
 
 * {
@@ -110,3 +114,18 @@ body{
 .mb-md {margin-bottom: 3rem;}
 .mb-lg {margin-bottom: 4rem;}
 .mb-hg {margin-bottom: 8rem;}
+
+
+
+@media only screen and (max-width: 75em){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 62.5em){
+    .container{
+      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content); 
+      grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    }
+}
