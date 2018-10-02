@@ -43,3 +43,9 @@
         grid-template-columns: min-content max-content min-content max-content min-content max-content;
     }
 }
+
+@media only screen and (max-width: 37.5em){
+    .realtors__list{
+        grid-template-columns: min-content max-content;
+    }
+}
